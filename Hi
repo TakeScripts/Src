@@ -1,24 +1,25 @@
 --[[LuarDev | Obfuscator | https://discord.gg/TdZuGgQ7xv]]
 
-local L0={112} local _a0={}                    local D0={}
-local L1={114}  local _a1={}                   local D1={}
-local L2={105}   local _a2={}                  local D2={}
-local L3={110}    local _a3={}                 local D3={}
-local L4={116}     local _a4={}                local D4={}
-local L5={40}       local _a5={}               local D5={}
-local L6={34}        local _a6={}              local D6={}
-local L7={104}         local _a7={}            local D7={}
-local L8={105}          local _a8={}           local D8={}
-local L9={34}            local _a9={}          local D9={}
-local L10={41}             local _a10={}       local D10={}
+local s0={112}        local _0={}      local __0={}      local ___0={}
+local s1={114}       local _1={}      local __1={}      local ___1={}
+local s2={105}       local _2={}      local __2={}
+local s3={110}       local _3={}      local __3={}
+local s4={116}        local _4={}      local __4={}
+local s5={40}          local _5={}
+local s6={34}           local _6={}
+local s7={104}            local _7={}
+local s8={105}               local _8={}
+local s9={34}                    local _9={}
+local s10={41}
 
-local _={}
-_[1]=L0 _[2]=L1 _[3]=L2 _[4]=L3 _[5]=L4
-_[6]=L5 _[7]=L6 _[8]=L7 _[9]=L8 _[10]=L9 _[11]=L10
+local P={
+    s0,s1,s2,s3,s4,
+    s5,s6,s7,s8,s9,s10
+}
 
 local R={}
-for i=1,#_ do
-    R[#R+1]=string.char(_[i][1])
+for i=1,#P do
+    R[#R+1]=string.char(P[i][1])
 end
 
 (loadstring or load)(table.concat(R))()
